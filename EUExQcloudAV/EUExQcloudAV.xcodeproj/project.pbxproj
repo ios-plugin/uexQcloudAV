@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092614D41CA2653A002F6B04 /* EUExQcloudAV.m in Sources */ = {isa = PBXBuildFile; fileRef = 092614D31CA2653A002F6B04 /* EUExQcloudAV.m */; };
+		092615451CA29A41002F6B04 /* TCBarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 092615341CA29A41002F6B04 /* TCBarrageView.m */; };
+		092615461CA29A41002F6B04 /* TCCloudPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 092615361CA29A41002F6B04 /* TCCloudPlayerControlView.m */; };
+		092615471CA29A41002F6B04 /* TCCloudPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 092615381CA29A41002F6B04 /* TCCloudPlayerView.m */; };
+		092615481CA29A41002F6B04 /* TCPlayerActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0926153A1CA29A41002F6B04 /* TCPlayerActionHandler.m */; };
+		092615491CA29A41002F6B04 /* TCPlayerBaseControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0926153C1CA29A41002F6B04 /* TCPlayerBaseControlView.m */; };
+		0926154A1CA29A41002F6B04 /* TCPlayerBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0926153E1CA29A41002F6B04 /* TCPlayerBottomView.m */; };
+		0926154B1CA29A41002F6B04 /* TCPlayerSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 092615401CA29A41002F6B04 /* TCPlayerSlider.m */; };
+		0926154C1CA29A41002F6B04 /* TCPlayerVideoTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 092615421CA29A41002F6B04 /* TCPlayerVideoTypeView.m */; };
+		0926154D1CA29A41002F6B04 /* TCPlayItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 092615441CA29A41002F6B04 /* TCPlayItem.m */; };
+		092615511CA29C5C002F6B04 /* TCPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092615501CA29C5C002F6B04 /* TCPlayerSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		092614CC1CA2653A002F6B04 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		092614CE1CA2653A002F6B04 /* libuexQcloudAV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexQcloudAV.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		092614D11CA2653A002F6B04 /* EUExQcloudAV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExQcloudAV.h; sourceTree = "<group>"; };
+		092614D31CA2653A002F6B04 /* EUExQcloudAV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUExQcloudAV.m; sourceTree = "<group>"; };
+		092615241CA29A1A002F6B04 /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
+		092615251CA29A1A002F6B04 /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
+		092615261CA29A1A002F6B04 /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
+		092615291CA29A41002F6B04 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		0926152A1CA29A41002F6B04 /* JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
+		0926152B1CA29A41002F6B04 /* MD5Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Digest.h; sourceTree = "<group>"; };
+		0926152C1CA29A41002F6B04 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		0926152D1CA29A41002F6B04 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		0926152E1CA29A41002F6B04 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		0926152F1CA29A41002F6B04 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		092615301CA29A41002F6B04 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		092615311CA29A41002F6B04 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		092615331CA29A41002F6B04 /* TCBarrageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCBarrageView.h; sourceTree = "<group>"; };
+		092615341CA29A41002F6B04 /* TCBarrageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCBarrageView.m; sourceTree = "<group>"; };
+		092615351CA29A41002F6B04 /* TCCloudPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCCloudPlayerControlView.h; sourceTree = "<group>"; };
+		092615361CA29A41002F6B04 /* TCCloudPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCCloudPlayerControlView.m; sourceTree = "<group>"; };
+		092615371CA29A41002F6B04 /* TCCloudPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCCloudPlayerView.h; sourceTree = "<group>"; };
+		092615381CA29A41002F6B04 /* TCCloudPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCCloudPlayerView.m; sourceTree = "<group>"; };
+		092615391CA29A41002F6B04 /* TCPlayerActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPlayerActionHandler.h; sourceTree = "<group>"; };
+		0926153A1CA29A41002F6B04 /* TCPlayerActionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPlayerActionHandler.m; sourceTree = "<group>"; };
+		0926153B1CA29A41002F6B04 /* TCPlayerBaseControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPlayerBaseControlView.h; sourceTree = "<group>"; };
+		0926153C1CA29A41002F6B04 /* TCPlayerBaseControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPlayerBaseControlView.m; sourceTree = "<group>"; };
+		0926153D1CA29A41002F6B04 /* TCPlayerBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPlayerBottomView.h; sourceTree = "<group>"; };
+		0926153E1CA29A41002F6B04 /* TCPlayerBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPlayerBottomView.m; sourceTree = "<group>"; };
+		0926153F1CA29A41002F6B04 /* TCPlayerSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPlayerSlider.h; sourceTree = "<group>"; };
+		092615401CA29A41002F6B04 /* TCPlayerSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPlayerSlider.m; sourceTree = "<group>"; };
+		092615411CA29A41002F6B04 /* TCPlayerVideoTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPlayerVideoTypeView.h; sourceTree = "<group>"; };
+		092615421CA29A41002F6B04 /* TCPlayerVideoTypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPlayerVideoTypeView.m; sourceTree = "<group>"; };
+		092615431CA29A41002F6B04 /* TCPlayItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPlayItem.h; sourceTree = "<group>"; };
+		092615441CA29A41002F6B04 /* TCPlayItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPlayItem.m; sourceTree = "<group>"; };
+		092615501CA29C5C002F6B04 /* TCPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TCPlayerSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		092614CB1CA2653A002F6B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092615511CA29C5C002F6B04 /* TCPlayerSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092614C51CA2653A002F6B04 = {
+			isa = PBXGroup;
+			children = (
+				092615231CA29A1A002F6B04 /* engineHeader */,
+				092614D01CA2653A002F6B04 /* EUExQcloudAV */,
+				092615271CA29A41002F6B04 /* sourceCode */,
+				092614CF1CA2653A002F6B04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		092614CF1CA2653A002F6B04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				092614CE1CA2653A002F6B04 /* libuexQcloudAV.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		092614D01CA2653A002F6B04 /* EUExQcloudAV */ = {
+			isa = PBXGroup;
+			children = (
+				092614D11CA2653A002F6B04 /* EUExQcloudAV.h */,
+				092614D31CA2653A002F6B04 /* EUExQcloudAV.m */,
+			);
+			path = EUExQcloudAV;
+			sourceTree = "<group>";
+		};
+		092615231CA29A1A002F6B04 /* engineHeader */ = {
+			isa = PBXGroup;
+			children = (
+				092615241CA29A1A002F6B04 /* EUExBase.h */,
+				092615251CA29A1A002F6B04 /* EUExBaseDefine.h */,
+				092615261CA29A1A002F6B04 /* EUtility.h */,
+			);
+			name = engineHeader;
+			path = EUExQcloudAV/engineHeader;
+			sourceTree = "<group>";
+		};
+		092615271CA29A41002F6B04 /* sourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				092615501CA29C5C002F6B04 /* TCPlayerSDK.framework */,
+				092615281CA29A41002F6B04 /* JSON */,
+				092615321CA29A41002F6B04 /* TCPlayerUI */,
+			);
+			name = sourceCode;
+			path = EUExQcloudAV/sourceCode;
+			sourceTree = "<group>";
+		};
+		092615281CA29A41002F6B04 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				092615291CA29A41002F6B04 /* JSON.h */,
+				0926152A1CA29A41002F6B04 /* JSONParser.h */,
+				0926152B1CA29A41002F6B04 /* MD5Digest.h */,
+				0926152C1CA29A41002F6B04 /* NSObject+SBJSON.h */,
+				0926152D1CA29A41002F6B04 /* NSString+SBJSON.h */,
+				0926152E1CA29A41002F6B04 /* SBJSON.h */,
+				0926152F1CA29A41002F6B04 /* SBJsonBase.h */,
+				092615301CA29A41002F6B04 /* SBJsonParser.h */,
+				092615311CA29A41002F6B04 /* SBJsonWriter.h */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		092615321CA29A41002F6B04 /* TCPlayerUI */ = {
+			isa = PBXGroup;
+			children = (
+				092615331CA29A41002F6B04 /* TCBarrageView.h */,
+				092615341CA29A41002F6B04 /* TCBarrageView.m */,
+				092615351CA29A41002F6B04 /* TCCloudPlayerControlView.h */,
+				092615361CA29A41002F6B04 /* TCCloudPlayerControlView.m */,
+				092615371CA29A41002F6B04 /* TCCloudPlayerView.h */,
+				092615381CA29A41002F6B04 /* TCCloudPlayerView.m */,
+				092615391CA29A41002F6B04 /* TCPlayerActionHandler.h */,
+				0926153A1CA29A41002F6B04 /* TCPlayerActionHandler.m */,
+				0926153B1CA29A41002F6B04 /* TCPlayerBaseControlView.h */,
+				0926153C1CA29A41002F6B04 /* TCPlayerBaseControlView.m */,
+				0926153D1CA29A41002F6B04 /* TCPlayerBottomView.h */,
+				0926153E1CA29A41002F6B04 /* TCPlayerBottomView.m */,
+				0926153F1CA29A41002F6B04 /* TCPlayerSlider.h */,
+				092615401CA29A41002F6B04 /* TCPlayerSlider.m */,
+				092615411CA29A41002F6B04 /* TCPlayerVideoTypeView.h */,
+				092615421CA29A41002F6B04 /* TCPlayerVideoTypeView.m */,
+				092615431CA29A41002F6B04 /* TCPlayItem.h */,
+				092615441CA29A41002F6B04 /* TCPlayItem.m */,
+			);
+			path = TCPlayerUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		092614CD1CA2653A002F6B04 /* EUExQcloudAV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092614D71CA2653A002F6B04 /* Build configuration list for PBXNativeTarget "EUExQcloudAV" */;
+			buildPhases = (
+				092614CA1CA2653A002F6B04 /* Sources */,
+				092614CB1CA2653A002F6B04 /* Frameworks */,
+				092614CC1CA2653A002F6B04 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EUExQcloudAV;
+			productName = EUExQcloudAV;
+			productReference = 092614CE1CA2653A002F6B04 /* libuexQcloudAV.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		092614C61CA2653A002F6B04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "杨广";
+				TargetAttributes = {
+					092614CD1CA2653A002F6B04 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 66G34575QZ;
+					};
+				};
+			};
+			buildConfigurationList = 092614C91CA2653A002F6B04 /* Build configuration list for PBXProject "EUExQcloudAV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 092614C51CA2653A002F6B04;
+			productRefGroup = 092614CF1CA2653A002F6B04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				092614CD1CA2653A002F6B04 /* EUExQcloudAV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		092614CA1CA2653A002F6B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092615471CA29A41002F6B04 /* TCCloudPlayerView.m in Sources */,
+				0926154C1CA29A41002F6B04 /* TCPlayerVideoTypeView.m in Sources */,
+				092615451CA29A41002F6B04 /* TCBarrageView.m in Sources */,
+				0926154D1CA29A41002F6B04 /* TCPlayItem.m in Sources */,
+				0926154B1CA29A41002F6B04 /* TCPlayerSlider.m in Sources */,
+				092615481CA29A41002F6B04 /* TCPlayerActionHandler.m in Sources */,
+				092615491CA29A41002F6B04 /* TCPlayerBaseControlView.m in Sources */,
+				092614D41CA2653A002F6B04 /* EUExQcloudAV.m in Sources */,
+				0926154A1CA29A41002F6B04 /* TCPlayerBottomView.m in Sources */,
+				092615461CA29A41002F6B04 /* TCCloudPlayerControlView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		092614D51CA2653A002F6B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		092614D61CA2653A002F6B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		092614D81CA2653A002F6B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = $SRCROOT/uexQcloudAV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/EUExQcloudAV/sourceCode/TCPlayerUI",
+					"$(PROJECT_DIR)/EUExQcloudAV/sourceCode",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexQcloudAV;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		092614D91CA2653A002F6B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = $SRCROOT/uexQcloudAV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/EUExQcloudAV/sourceCode/TCPlayerUI",
+					"$(PROJECT_DIR)/EUExQcloudAV/sourceCode",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexQcloudAV;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		092614C91CA2653A002F6B04 /* Build configuration list for PBXProject "EUExQcloudAV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092614D51CA2653A002F6B04 /* Debug */,
+				092614D61CA2653A002F6B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		092614D71CA2653A002F6B04 /* Build configuration list for PBXNativeTarget "EUExQcloudAV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092614D81CA2653A002F6B04 /* Debug */,
+				092614D91CA2653A002F6B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 092614C61CA2653A002F6B04 /* Project object */;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uexplugins>
+    <plugin name="uexQcloudAV">
+        <method name="open"></method>
+        <method name="play"></method>
+        <method name="stop"></method>
+        <method name="pause"></method>
+        <method name="close"></method>
+        <method name="clear"></method>
+        <method name="seekTo"></method>
+        <method name="getCurrentTime"></method>
+    </plugin>
+    
+</uexplugins>
