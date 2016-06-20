@@ -150,6 +150,31 @@ NSString *kUexQCloudTitle = nil;
         [EUtility brwView:self.meBrwView evaluateScript:jsString];
     }
 }
+- (void)onPlayerFailed:(id<TCPlayerEngine>)player errorType:(TCPlayerErrorType)errType{
+    NSNumber *stateBackText = nil;
+    switch (errType) {
+        case TCPlayerError_UnKnowError:
+        stateBackText = @(-1);
+        break;
+        case TCPlayerError_MediaFormat_Error:
+        stateBackText = @(-1);
+        break;
+        case TCPlayerError_BufferingTimerOut:
+        stateBackText = @(-1);
+        break;
+        
+        case TCPlayerError_Unsupport:
+        stateBackText = @(-1);
+        break;
+        default:
+        stateBackText = @(-1);
+        break;
+    }
+    NSString *jsonStr = [stateBackText JSONFragment];
+    NSString *jsString = [NSString stringWithFormat:@"uexQcloudAV.onStateChanged('%@');",jsonStr];
+    [EUtility brwView:self.meBrwView evaluateScript:jsString];
+}
+
 //切换网络时触发
 -(void)onNetworkStateChanged:(id<TCPlayerEngine>)player toState:(TCPlayerNetworkState)state{
     NSNumber *networkState = nil;
