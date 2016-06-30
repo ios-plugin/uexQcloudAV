@@ -18,6 +18,7 @@
 		0926154C1CA29A41002F6B04 /* TCPlayerVideoTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 092615421CA29A41002F6B04 /* TCPlayerVideoTypeView.m */; };
 		0926154D1CA29A41002F6B04 /* TCPlayItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 092615441CA29A41002F6B04 /* TCPlayItem.m */; };
 		092615511CA29C5C002F6B04 /* TCPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092615501CA29C5C002F6B04 /* TCPlayerSDK.framework */; };
+		21D29FB11D226DA600CA217A /* AppCanKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D29FB01D226DA600CA217A /* AppCanKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,7 +37,6 @@
 		092614CE1CA2653A002F6B04 /* libuexQcloudAV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexQcloudAV.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		092614D11CA2653A002F6B04 /* EUExQcloudAV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExQcloudAV.h; sourceTree = "<group>"; };
 		092614D31CA2653A002F6B04 /* EUExQcloudAV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUExQcloudAV.m; sourceTree = "<group>"; };
-		092615241CA29A1A002F6B04 /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
 		092615251CA29A1A002F6B04 /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
 		092615261CA29A1A002F6B04 /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
 		092615291CA29A41002F6B04 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
@@ -67,6 +67,7 @@
 		092615431CA29A41002F6B04 /* TCPlayItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPlayItem.h; sourceTree = "<group>"; };
 		092615441CA29A41002F6B04 /* TCPlayItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPlayItem.m; sourceTree = "<group>"; };
 		092615501CA29C5C002F6B04 /* TCPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TCPlayerSDK.framework; sourceTree = "<group>"; };
+		21D29FB01D226DA600CA217A /* AppCanKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCanKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21D29FB11D226DA600CA217A /* AppCanKit.framework in Frameworks */,
 				092615511CA29C5C002F6B04 /* TCPlayerSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -111,7 +113,6 @@
 		092615231CA29A1A002F6B04 /* engineHeader */ = {
 			isa = PBXGroup;
 			children = (
-				092615241CA29A1A002F6B04 /* EUExBase.h */,
 				092615251CA29A1A002F6B04 /* EUExBaseDefine.h */,
 				092615261CA29A1A002F6B04 /* EUtility.h */,
 			);
@@ -122,6 +123,7 @@
 		092615271CA29A41002F6B04 /* sourceCode */ = {
 			isa = PBXGroup;
 			children = (
+				21D29FB01D226DA600CA217A /* AppCanKit.framework */,
 				092615501CA29C5C002F6B04 /* TCPlayerSDK.framework */,
 				092615281CA29A41002F6B04 /* JSON */,
 				092615321CA29A41002F6B04 /* TCPlayerUI */,

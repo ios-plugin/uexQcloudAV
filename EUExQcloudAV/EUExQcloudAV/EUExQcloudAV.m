@@ -15,12 +15,12 @@
 
 NSString *kUexQCloudTitle = nil;
 @implementation EUExQcloudAV
--(id)initWithBrwView:(EBrowserView *) eInBrwView {
-    if (self = [super initWithBrwView:eInBrwView]) {
-        
-    }
-    return self;
-}
+//-(id)initWithBrwView:(EBrowserView *) eInBrwView {
+//    if (self = [super initWithBrwView:eInBrwView]) {
+//        
+//    }
+//    return self;
+//}
 -(void)open:(NSMutableArray *)inArguments{
     NSString *jsonStr = nil;
     if (inArguments.count > 0) {
@@ -46,7 +46,8 @@ NSString *kUexQCloudTitle = nil;
     _playerView.enableCache = YES;
     _playerView.clearPlayCache = NO;
     [_playerView enableNetworkMonitoring];
-    [EUtility brwView:meBrwView addSubview:_playerView];
+    //[EUtility brwView:meBrwView addSubview:_playerView];
+    [[self.webViewEngine webView] addSubview:_playerView];
     
     TCPlayResItem *res = [[TCPlayResItem alloc] init];
     
@@ -88,20 +89,22 @@ NSString *kUexQCloudTitle = nil;
 
     [self.playerView seekToTime:[jsonStr intValue] completion:nil];
 }
--(void)getCurrentTime:(NSMutableArray *)inArguments{
+-(NSNumber*)getCurrentTime:(NSMutableArray *)inArguments{
     [self onCurrentTime:self.playerView time:0];
-    NSString *jsonStr = [self.timeNum JSONFragment];
-    NSString *jsString = [NSString stringWithFormat:@"uexQcloudAV.cbGetCurrentTime('%@');",jsonStr];
-    [EUtility brwView:self.meBrwView evaluateScript:jsString];
-    
+    NSString *jsonStr = [self.timeNum stringValue];
+    //NSString *jsString = [NSString stringWithFormat:@"uexQcloudAV.cbGetCurrentTime('%@');",jsonStr];
+    //[EUtility brwView:self.meBrwView evaluateScript:jsString];
+    [self.webViewEngine callbackWithFunctionKeyPath:@"uexQcloudAV.cbGetCurrentTime" arguments:ACArgsPack(jsonStr)];
+    return self.timeNum;
 }
 
 - (void)onPlayOver:(id<TCPlayerEngine>)player
 {
     NSNumber *stateBackText = @5;
-    NSString *jsonStr = [stateBackText JSONFragment];
-    NSString *jsString = [NSString stringWithFormat:@"uexQcloudAV.onStateChanged('%@');",jsonStr];
-    [EUtility brwView:self.meBrwView evaluateScript:jsString];
+    NSString *jsonStr = [stateBackText stringValue];
+    //NSString *jsString = [NSString stringWithFormat:@"uexQcloudAV.onStateChanged('%@');",jsonStr];
+    //[EUtility brwView:self.meBrwView evaluateScript:jsString];
+    [self.webViewEngine callbackWithFunctionKeyPath:@"uexQcloudAV.onStateChanged" arguments:ACArgsPack(jsonStr)];
     NSLog(@"播放结束") ;
 }
 // 回调当前播放时间
@@ -145,9 +148,10 @@ NSString *kUexQCloudTitle = nil;
     }
     if (isShow) {
         
-        NSString *jsonStr = [stateBackText JSONFragment];
-        NSString *jsString = [NSString stringWithFormat:@"uexQcloudAV.onStateChanged('%@');",jsonStr];
-        [EUtility brwView:self.meBrwView evaluateScript:jsString];
+        NSString *jsonStr = [stateBackText stringValue];
+       // NSString *jsString = [NSString stringWithFormat:@"uexQcloudAV.onStateChanged('%@');",jsonStr];
+        //[EUtility brwView:self.meBrwView evaluateScript:jsString];
+        [self.webViewEngine callbackWithFunctionKeyPath:@"uexQcloudAV.onStateChanged" arguments:ACArgsPack(jsonStr)];
     }
 }
 - (void)onPlayerFailed:(id<TCPlayerEngine>)player errorType:(TCPlayerErrorType)errType{
@@ -170,9 +174,10 @@ NSString *kUexQCloudTitle = nil;
         stateBackText = @(-1);
         break;
     }
-    NSString *jsonStr = [stateBackText JSONFragment];
-    NSString *jsString = [NSString stringWithFormat:@"uexQcloudAV.onStateChanged('%@');",jsonStr];
-    [EUtility brwView:self.meBrwView evaluateScript:jsString];
+    NSString *jsonStr = [stateBackText stringValue];
+    //NSString *jsString = [NSString stringWithFormat:@"uexQcloudAV.onStateChanged('%@');",jsonStr];
+    //[EUtility brwView:self.meBrwView evaluateScript:jsString];
+    [self.webViewEngine callbackWithFunctionKeyPath:@"uexQcloudAV.onStateChanged" arguments:ACArgsPack(jsonStr)];
 }
 
 //切换网络时触发
@@ -193,9 +198,10 @@ NSString *kUexQCloudTitle = nil;
             break;
     }
     
-    NSString *jsonStr = [networkState JSONFragment];
-    NSString *jsString = [NSString stringWithFormat:@"uexQcloudAV.onNetworkStateChanged('%@');",jsonStr];
-    [EUtility brwView:self.meBrwView evaluateScript:jsString];
+    NSString *jsonStr = [networkState stringValue];
+    //NSString *jsString = [NSString stringWithFormat:@"uexQcloudAV.onNetworkStateChanged('%@');",jsonStr];
+    //[EUtility brwView:self.meBrwView evaluateScript:jsString];
+    [self.webViewEngine callbackWithFunctionKeyPath:@"uexQcloudAV.onNetworkStateChanged" arguments:ACArgsPack(jsonStr)];
     NSLog(@"%@",networkState);
     
 }

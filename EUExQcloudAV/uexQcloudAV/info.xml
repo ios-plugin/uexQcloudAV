@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <uexplugins>
     <plugin
-        uexName="uexQcloudAV" version="3.0.1" build="1">
-        <info>1:增加播放错误状态返回值</info>
+        uexName="uexQcloudAV" version="4.0.0" build="2">
+        <info>2:支持引擎4.0，函数入参</info>
+        <build>1:增加播放错误状态返回值</build>
         <build>0:视频直播插件</build>
     </plugin>
 </uexplugins>

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "EUExBase.h"
+#import <AppCanKit/AppCanKit.h>
 #import <TCPlayerSDK/TCPlayerSDK.h>
 extern NSString *kUexQCloudTitle;//初始化显示TCPlayerBottomView底部label的名称
 @interface EUExQcloudAV : EUExBase <TCPlayerEngineDelegate>

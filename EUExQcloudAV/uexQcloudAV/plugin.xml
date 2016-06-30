@@ -8,7 +8,7 @@
         <method name="close"></method>
         <method name="clear"></method>
         <method name="seekTo"></method>
-        <method name="getCurrentTime"></method>
+        <method name="getCurrentTime" sync = "true"></method>
     </plugin>
     
 </uexplugins>
